@@ -1,15 +1,6 @@
 import { useState } from 'react'
-
 import './App.css'
-
-
-
-
-
-
-import { useState } from "react";
 import languages from "./data/languages";
-import "./App.css";
 
 function App() {
   // Stato: parte dal primo linguaggio
