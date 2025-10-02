@@ -25,6 +25,8 @@ function App() {
             key={lang.id}
             onClick={() => setSelectedId(lang.id)}
             className={selectedId === lang.id ? "btn active" : "btn"} // Aggiungo la classe "active" se il bottone è quello selezionato
+            // Uso un operatore ternario per assegnare la classe corretta
+            // Se selectedId è uguale a lang.id, assegno "btn active", altrimenti solo "btn"
           >
             {lang.title}
           </button>
