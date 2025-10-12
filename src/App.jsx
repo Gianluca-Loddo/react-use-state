@@ -5,6 +5,7 @@ import languages from "./data/languages";
 function App() {
   // Tengo nello stato SOLO l'id del linguaggio selezionato.
   // Parto dal primo elemento dell'array così da mostrare subito qualcosa. (default)
+  // [0] corrisponde al linguaggio da me selezionato all'inizio (inizializzazione dello stato).
   const [selectedId, setSelectedId] = useState(languages[0].id);
 
   // Dato derivato: ad ogni render, ricavo l'oggetto completo 
